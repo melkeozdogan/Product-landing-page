@@ -1,0 +1,67 @@
+
+<header id="header"> <img id="header-img" src="https://i.pinimg.com/originals/8b/5d/9a/8b5d9a66ad4d0205be793d23f8c7964c.jpg" alt="my logo"> 
+     <nav id="nav-bar"> 
+    <ul> 
+      <li> <a class="nav-link" href="#book">  History Of The Book </a> </li> 
+      <li> <a class="nav-link" href="#type"> Types Of Books </a> </li> 
+      <li> <a class="nav-link" href="#buy"> Buy The Book According To Your Pleasure! </a> </li> 
+    </ul> </nav>
+  <div class="one">  
+    </header> 
+    
+  
+  
+  <main> 
+    <section id="product-detail"> 
+    <h1> Thousands Of Books For Every Need! </h1>
+  <form id="form"  action="https://www.freecodecamp.org/melkeozdogan"> 
+    <label for="e-mail" id="label"> Get to know more:  </label> 
+  <input id="email" name="email" type="email" required placeholder="insert your e-mail"> <br>
+    <br>
+    <input id="submit" type="submit" value="Enter your new books world" class="btn"</form>  <br>
+  </section> 
+
+
+    <div id="content"> 
+      <img class="left" src="https://i.pinimg.com/originals/44/10/f6/4410f6be9b76fddaf613bba39f79ae02.jpg"> 
+      <div id="vegan" class="right"> <h2> History Of The Book </h2> 
+        <p> Undoubtedly the most basic element is information in the development of civilization. In this context itis obvious the importance of the book as a information source. The book showed different levels of development early ages up to this day. The emergence and development of the book shaped various cultural,
+political, economic, and geographic factors. Today, the book been in existence in both print and electronic formats and continues to be the main information source. To know the history of the book will shed light on future assessments. In this context, the aim of this study to present an overview the formation and development of the printed book in the historical process.
+ </p>
+      </div> 
+    <img class="left" src="https://i.pinimg.com/originals/f1/eb/a5/f1eba5c6a2594e915abf07bddfba83fa.jpg"> 
+      <div id="sustainable" class="right"> <h2> Types Of Books </h2> 
+        <p> Types of books vary, depending on their subject matter and many different genres. Thus, each person has the opportunity to read different books that appeal to his taste. The books, which address many fields and deal with different subjects, are now divided into different genres. So, what are the types of books? Information about the types of books and their names.
+There are many different types such as horror books, adventure books, fantasy and science fiction books, as well as historical books. There are also different types of research or options such as documentary and autobiography. Thus, different information is transferred to people depending on the content of the books. </p>
+      </div> <!--closing right div-->  
+      
+      <img class="left" src="https://i.pinimg.com/originals/03/e0/fd/03e0fdf615a209eabde7da9bd79bec4b.jpg"> 
+      <div id="share" class="right"> <h2> Buy The Book According To Your Pleasure! </h2> 
+        <p>Although many consider it a "hobby", it's actually much more than reading books! An indispensable need to improve yourself and look at life in a different way… In fact, according to many famous entrepreneurs, it is one of the secrets of their success!
+
+Saying that he spends about 10 hours reading daily in his youth and is a science fiction enthusiast, Elon Musk said, "I was raised by books and later by my family." says.
+
+Mark Zuckerberg, the founder of Facebook, tries to read at least 1 book every 2 weeks and the importance of reading a book is "Books allow you to fully explore a subject." explains in words. “Each book opens new avenues of knowledge to be discovered.” Bill Gates says he reads 50 books a year.
+
+Alright; How can you gain the habit of reading books, which is seen as one of the secrets of some famous entrepreneurs' success? If you want to gain the habit of reading, we suggest that you listen to the suggestions we have listed. </p>
+      </div>
+    
+    </div> 
+
+
+  <div class="content-2">
+      <h1> Watch The Video About The Evolution Of The Book. </h1> 
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/watch?v=_YqYtdPUis4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+
+
+    <footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+    <p>2022</p>
+  </footer>
+</main>  

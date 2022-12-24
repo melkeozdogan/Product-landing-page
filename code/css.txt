@@ -1,0 +1,186 @@
+* {box-sizing: border-box;}
+
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
+
+html, body {
+  font-family: Helvetica; 
+  background-color: #eee;
+  max-width: 900px; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Mukta', sans-serif;
+  text-weight: bold; 
+  color: #582121;
+}
+
+#header {
+  position: fixed; 
+  float: left;
+  background-color: #eee;
+}
+
+#header-img {
+  float: left;
+  background-color: #eee;
+
+}
+
+nav {
+  float: right;
+  font-size: 1.1em; 
+  top: 45px; 
+  position: fixed; 
+  background-color: #eee;
+  margin-left: 400px; 
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+  
+}
+
+ul {
+  list-style: none; 
+  display: flex;
+  flex-direction: row; 
+}
+
+li {
+  padding-left: 8px; 
+  align-items: right;
+
+}
+
+a {
+  text-decoration: none; 
+  color: #6F2E24;
+  font-family: 'Mukta', sans-serif;
+}
+
+a:hover {
+  color: #965146;
+}
+
+nav a:hover {
+  background-color: #DED8D8;
+  border: 2px; 
+  border-radius: 200px auto; 
+  padding: 2px; 
+  @media (max-width: 600px) {
+    flex-wrap: wrap;
+  }
+
+}
+
+main {
+  position: absolute;  
+  padding: 2em; 
+  margin: 1em; 
+  float: inherit; 
+  min-width: 320px; 
+  top: 240px; 
+}
+
+#product-detail{
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  width: 100%;  
+  color: #582121; 
+
+}
+
+#product-detail #label {
+  font-weight: bold;   
+}
+
+#product-detail #email {
+  font-weight: 100; 
+  font-size: 0.9em; 
+  border: none; 
+  height: 25%; 
+
+}
+
+
+#product-detail .btn {
+  padding: 0 15px;
+  height: 35px;
+  font-size: 0.8em;
+  color: #582121;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px #582121 solid;
+  border-radius: 30px;
+  background: #DED8D8;
+  cursor: pointer;
+}
+
+#product-detail .btn:hover {
+  background-color: #582121;
+  color: #DED8D8;
+}
+
+
+
+#content {
+  padding: 5px; 
+  display: grid; 
+  grid-template-columns: 300px 600px;
+  color: #582121;
+
+}
+
+.left {
+  width: 75%;
+  justify-self: center; 
+  margin: 2px; 
+  border-radius: 90px;
+
+}
+
+.right{
+  width: 100%;
+  justify-self: rigth; 
+}
+
+.content-2 {
+ 
+}
+
+
+.content-2 h1 {
+  font-size: 1.5em; 
+  text-align: center; 
+}
+
+.content-2 iframe {
+  border-radius: 90px; 
+  justify-self: center; 
+}
+
+
+footer {
+  background-color: #582121;
+  padding: 2px; 
+  margin: 2px; 
+}
+
+footer li {
+  text-align: right; 
+}
+footer p {
+  text-align: right; 
+  margin-right: 3px;
+  color: white; 
+}
+
+ @media (max-width: 900px) {
+   wrapper {
+    flex-direction: column;
+   } 
+  
+} 
+    
+  
